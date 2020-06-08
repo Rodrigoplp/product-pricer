@@ -1,12 +1,10 @@
 # Product pricer
 
-A JavaScript library to calculate the total price of an order, given:
+A JavaScript library to calculate the total price of a product, given:
 
-- Number of items;
-
-- Individual price;
-
-- Code of the state.
+* Number of items;
+* Individual price;
+* Code of the state.
 
 The total price is calculated by:
  
