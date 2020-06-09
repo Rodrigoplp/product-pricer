@@ -1,15 +1,19 @@
 {
   "name": "prodpricer",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "A library to calculate the total price of an order",
   "repository": "https://github.com/Rodrigoplp/product-pricer",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha --watch"
   },
   "author": "Rodrigo P. L. Pinto",
   "license": "ISC",
-  "dependencies": {
+  "devDependencies": {
+    "chai": "^4.2.0",
     "mocha": "^7.2.0"
+  },
+  "engines": {
+    "node": ">=8.0.0"
   }
 }

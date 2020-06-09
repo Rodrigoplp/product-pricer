@@ -43,3 +43,23 @@ Output: $565.00
 Input: 3600 items, $2.25 per item, Michigan
 Output: $7984.98
 ```
+
+## Runtime versions
+
+Mocha requires Node.js v8.0.0 or newer.
+
+## Install dependencies
+
+To use this library it is necessary to have NodeJS and NPM installed.
+
+1. Install dependencies
+
+```
+npm install
+```
+
+## Run tests
+
+```
+npm test
+```
