@@ -57,6 +57,49 @@ To use this library it is necessary to have NodeJS and NPM installed.
 npm install
 ```
 
+## Usage
+
+### With REPL
+
+```
+git clone 'https://github.com/Rodrigoplp/product-pricer'
+cd product-pricer
+node
+lib = require('./index')
+lib.pricer(500, 1, 'ON')
+```
+
+### With another NodeJS project
+
+Clone repository:
+
+```
+git clone 'https://github.com/Rodrigoplp/product-pricer'
+```
+
+From another NodeJS project install Project Pricer:
+
+```
+cd ..
+cd my-project
+npm install -save ../product-pricer
+```
+
+In `~/my-project/index.js` or in a file where Product Pricer is needed, include:
+
+```
+const { pricer } = require('prodPricer')
+
+let result = pricer(500, 1, 'ON')
+console.log('$', result)
+```
+
+Close the file and run the project:
+
+```
+node index.js
+```
+
 ## Run tests
 
 ```

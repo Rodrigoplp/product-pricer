@@ -92,8 +92,6 @@ const validState = e => {
  */
 const validInput = (items, price, state) => {
   let checks = [validItems(items), validPrice(price), validState(state)]
-  let success = true
-  let error = null
 
   let result = checks.filter(e => e.success === false)
 
