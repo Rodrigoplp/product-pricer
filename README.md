@@ -51,12 +51,6 @@ Mocha requires Node.js v8.0.0 or newer.
 
 To use this library it is necessary to have NodeJS and NPM installed.
 
-1. Install dependencies
-
-```
-npm install
-```
-
 ## Usage
 
 ### With REPL
@@ -67,6 +61,12 @@ cd product-pricer
 node
 lib = require('./index')
 lib.pricer(500, 1, 'ON')
+```
+
+When finished testing, exit REPL:
+
+```
+.exit
 ```
 
 ### With another NodeJS project
@@ -101,6 +101,16 @@ node index.js
 ```
 
 ## Run tests
+
+Clone the repository and install dependencies:
+
+```
+git clone 'https://github.com/Rodrigoplp/product-pricer'
+cd product-pricer
+npm install
+```
+
+Run tests:
 
 ```
 npm test
