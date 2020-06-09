@@ -29,7 +29,6 @@ The following tables give the discount rate and tax rates:
 | MI | 6% |
 | DE | 0% |
  
- 
 ## Example 1:
  
 ```
