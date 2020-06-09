@@ -5,7 +5,7 @@
   "repository": "https://github.com/Rodrigoplp/product-pricer",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --watch"
+    "test": "mocha"
   },
   "author": "Rodrigo P. L. Pinto",
   "license": "ISC",
